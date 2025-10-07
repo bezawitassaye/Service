@@ -45,7 +45,7 @@ const Hero = () => {
         <img src={persones} className='' alt="" />
        
       </div>
-
+         <div></div>
       <div></div>
  <div className='mt-110 hidden lg:block lg:mr-0 '>
           <img src={down} alt="" className='w-18' />
