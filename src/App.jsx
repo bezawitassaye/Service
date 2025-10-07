@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Aos from 'aos'
 import 'aos/dist/aos.css';
+import About from './components/About';
 
 const App = () => {
   useEffect(()=>{
@@ -17,6 +18,7 @@ const App = () => {
     <div>
       <Navbar/>
       <Hero/>
+      <About/>
     </div>
   )
 }
