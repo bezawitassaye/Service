@@ -2,12 +2,13 @@ import { Play } from 'lucide-react'
 import React from 'react'
 import persones from "../assets/persones.png"
 import down from "../assets/down.png"
+import up from "../assets/up.png"
 
 const Hero = () => {
   return (
     <section className='relative overflow-hidden pt-20 sm:pt-20 md:pt-30 lg:pt-48 py-12 px-4 sm:px-6
     md:px-8 lg:py-16  lg:px-30 flex flex-col lg:flex-row items-center justify-between'>
-
+   
       <div className='flex-1 lg:ml-28 justify-center w-full max-w-xl space-y-6 relative z-20'>
         <h2 className='text-4xl sm:text-5xl text-gray-900 text-center lg:text-left font-bold text-sty  ' data-aos="fade-right">
           We create <br /> <span className='text-orange-500'>solutions</span> for <br /> your business{""}
@@ -45,10 +46,8 @@ const Hero = () => {
         <img src={persones} className='' alt="" />
 
       </div>
+
      
-      <div className='mt-110 hidden lg:block lg:mr-0 ' data-aos="fade-left" data-aos-delay="400">
-        <img src={down} alt="" className='w-18' />
-      </div>
 
     </section>
   )

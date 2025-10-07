@@ -91,9 +91,7 @@ const Navbar = () => {
                 </div>
 
             )}
-            <div className='ml-20  hidden lg:block  ' data-aos="fade-right">
-                <img src={up} alt="" className='w-18 hidden lg:block' />
-            </div>
+            
         </nav>
     )
 }
