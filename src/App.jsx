@@ -5,6 +5,7 @@ import Aos from 'aos'
 import 'aos/dist/aos.css';
 import About from './components/About';
 import SimpleSolutions from './components/SimpleSolutions';
+import Agency from './components/Agency';
 
 const App = () => {
   useEffect(()=>{
@@ -21,6 +22,7 @@ const App = () => {
       <Hero/>
       <About/>
       <SimpleSolutions/>
+      <Agency/>
     </div>
   )
 }
